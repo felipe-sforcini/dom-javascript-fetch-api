@@ -5,6 +5,9 @@ Gostaria de compartilhar o projeto de front end que fechou o segundo módulo do 
 O intuito do trabalho foi criar uma API de serviço de streaming, utilizando da ferramenta fetch.
 Utilizei dos conhecimentos adquiridos em html, css e javascript, pra criar funcionalidades responsivas. No vídeo abaixo percebe-se que o design principal é focado na visualização de filmes buscados por fetch, paginação, buscador de filmes, "filme do dia", modal e mudança de tema (light e dark).
 
+### :point_right: Acesse o Projeto
+https://felipe-cubosflix.vercel.app
+
 ### Tecnologias utilizadas:
 
 <div style="display: inline_block"><br>
