@@ -20,7 +20,9 @@ const createModal = (body) => {
     modalTitle.textContent = body.title;
     modalImg.src = body.backdrop_path;
     modalDescription.textContent = body.overview;
-    modalAverage.textContent = body.vote_average;
+    modalAverage.textContent = (body.vote_average).toFixed(1);
+
+    modalGenres.textContent = '';
 
     body.genres.forEach((genre) => {
         const modalGenre = document.createElement('span');

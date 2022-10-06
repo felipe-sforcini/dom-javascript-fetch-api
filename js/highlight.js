@@ -36,7 +36,7 @@ const createHighlight = (item) => {
     highlightVideo.style.backgroundImage = `url(${item.backdrop_path})`;
     highlightVideoLink.href = `https://www.youtube.com/watch?v=${videoKey}`;
     highlightTitle.textContent = item.title;
-    highlightRating.textContent = item.vote_average;
+    highlightRating.textContent = (item.vote_average).toFixed(1);
     highlightGenres.textContent = genreList.join(', ');
     highlightLaunch.textContent = item.release_date;
     highlightDescription.textContent = item.overview;
